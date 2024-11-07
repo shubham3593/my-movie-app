@@ -1,0 +1,96 @@
+/* MovieDetail.css */
+
+.movie-detail {
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie-detail-header {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .movie-detail-content {
+    display: flex;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .movie-poster {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 2rem;
+  }
+  
+  .movie-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .movie-info .rating {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .movie-info .details {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .movie-info h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .movie-info p {
+    line-height: 1.6;
+  }
+  
+  .cast-title {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: #fff;
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+  
+  .cast-card {
+    width: 120px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cast-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cast-name {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+  }
+  
+  .cast-character {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  

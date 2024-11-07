@@ -1,0 +1,40 @@
+/* MovieCard.css */
+
+.movie-card {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-info {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .movie-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .movie-rating {
+    font-size: 0.9rem;
+    color: #ffd700; /* Gold color for rating */
+    margin: 0;
+  }
+  
